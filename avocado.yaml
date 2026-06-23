@@ -44,7 +44,7 @@ extensions:
         packagegroup-cross-canadian-avocado-{{ avocado.target }}: '*'
 
 sdk:
-  image: docker.io/avocadolinux/sdk:{{ env.AVOCADO_DISTRO_RELEASE }}-{{ env.AVOCADO_DISTRO_CHANNEL }}
+  image: docker.io/avocadolinux/sdk:{{ env.AVOCADO_DISTRO_RELEASE }}
 
   compile:
     v4l2loopback-build:
