@@ -11,7 +11,7 @@ if [ ! -d "v4l2loopback" ]; then
     git clone https://github.com/v4l2loopback/v4l2loopback.git
     cd v4l2loopback
     # Use a stable release version
-    git checkout v0.13.2
+    git checkout v0.15.3
 else
     echo "Using existing v4l2loopback directory"
     cd v4l2loopback
