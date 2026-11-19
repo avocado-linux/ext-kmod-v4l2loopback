@@ -7,7 +7,7 @@ extensions:
     summary: V4L2 loopback kernel module
     description: Virtual video device kernel module for V4L2
     license: GPL-2.0
-    url: https://github.com/avocadolinux/avocado-os
+    url: https://github.com/avocado-linux/ext-kmod-v4l2loopback
     vendor: Avocado Linux <info@avocadolinux.org>
 
     modprobe:
